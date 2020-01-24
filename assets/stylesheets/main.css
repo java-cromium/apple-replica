@@ -1,0 +1,47 @@
+/*
+  ========================================
+  meyerweb css reset used in the index.html
+  <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+  ========================================
+*/
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  background: white;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 5rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+    width:1440px;
+    height: 538px;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.nav {
+    text-align: center;
+    height: 36px;
+    background: #333;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+header > div > a {
+    flex: 1;
+}
