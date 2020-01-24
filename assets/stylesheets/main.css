@@ -81,8 +81,18 @@ h2 {
     letter-spacing: 0px;
 }
 
+h3 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 26px;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
 .text {
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-left: 10rem;
   max-width: 1080px;
 }
