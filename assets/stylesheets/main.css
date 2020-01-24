@@ -19,8 +19,9 @@ body {
 
 header {
     width:1440px;
-    height: 538px;
+    height: 610px;
     background-image: url(../expedition_hero_apple.jpg);
+    background-repeat: round;
 }
 
 a {
