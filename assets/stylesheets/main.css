@@ -14,7 +14,6 @@
 body {
   background: white;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 5rem;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -34,8 +33,9 @@ a {
     text-align: center;
     height: 36px;
     background: #333;
-    max-width: 980px;
-    margin-top: 10px;
+    max-width: 960px;
+    margin-top: 5rem;
+    border-radius: 5px;
 
 }
 
@@ -46,6 +46,36 @@ a {
 }
 
 
-header > div > a {
+section > div > a {
     flex: 1;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 100;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+}
+
+.text {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  max-width: 1080px;
+}
+
+section > div > img {
+    flex: 1;
+    margin: 1px;
 }
