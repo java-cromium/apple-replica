@@ -34,11 +34,15 @@ a {
     text-align: center;
     height: 36px;
     background: #333;
+    max-width: 980px;
+    margin-top: 10px;
 
 }
 
 .flex-container {
     display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 
