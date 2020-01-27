@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  width:1440px;
+  width: 1440px;
   height: 612px;
   background-image: url(../expedition_hero_apple.jpg);
   background-repeat: round;
@@ -51,7 +51,7 @@ a {
 }
 
 footer {
-  margin:10px;
+  margin: 10px;
 }
 
 section > div.flex-container.nav > a {
@@ -67,7 +67,7 @@ section > div.flex-container.nav > a {
   background: -o-linear-gradient(top, #333 0%, #474747 54%, #696969 100%);
   background: -ms-linear-gradient(top, #333 0%, #474747 54%, #696969 100%);
   background: linear-gradient(to bottom, #333 0%, #474747 54%, #696969 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#696969', GradientType=0 );
+  filter: progid:dximagetransform.microsoft.gradient( startColorstr='#333333', endColorstr='#696969', GradientType=0 );
   border: 1px solid #474747;
 }
 
@@ -122,29 +122,29 @@ header > section > div > a > img {
 
 .footer-nav, .footer-contact {
   flex: 1;
- }
+}
 
 .footer-contact {
   margin-left: 14rem;
-  padding-top: 10px
- }
-
- .footer-nav {
-   margin-right: 13rem;
-   padding-top: 10px;
-   word-spacing: 3px;
- }
-
- footer > section > div, footer > small {
-   font-size: 11px;
-   font-weight: 400;
-   color: #6e6e6e;
- }
-
- footer > section > div > a, footer > small > a {
-    color: #08c;
+  padding-top: 10px;
 }
 
- .footer-copy {
-    margin-left: 14rem;
- }
+.footer-nav {
+  margin-right: 13rem;
+  padding-top: 10px;
+  word-spacing: 3px;
+}
+
+footer > section > div, footer > small {
+  font-size: 11px;
+  font-weight: 400;
+  color: #6e6e6e;
+}
+
+footer > section > div > a, footer > small > a {
+  color: #08c;
+}
+
+.footer-copy {
+  margin-left: 14rem;
+}
