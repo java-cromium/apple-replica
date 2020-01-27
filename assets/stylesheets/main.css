@@ -136,7 +136,8 @@ header > section > div > a > img {
   word-spacing: 3px;
 }
 
-footer > section > div, footer > small {
+footer > section > div,
+footer > small {
   font-size: 11px;
   font-weight: 400;
   color: #6e6e6e;
