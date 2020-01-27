@@ -60,15 +60,15 @@ section > div.flex-container.nav > a {
   padding-top: 4px;
   border-radius: 2px;
   font-weight: 400;
-  background: #333333;
+  background: #333;
   background: -moz-linear-gradient(top, #333 0%, #474747 54%, #696969 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #333333), color-stop(54%, #474747), color-stop(100%, #696969));
-  background: -webkit-linear-gradient(top, #333333 0%, #474747 54%, #696969 100%);
-  background: -o-linear-gradient(top, #333333 0%, #474747 54%, #696969 100%);
-  background: -ms-linear-gradient(top, #333333 0%, #474747 54%, #696969 100%);
-  background: linear-gradient(to bottom, #333333 0%, #474747 54%, #696969 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #333), color-stop(54%, #474747), color-stop(100%, #696969));
+  background: -webkit-linear-gradient(top, #333 0%, #474747 54%, #696969 100%);
+  background: -o-linear-gradient(top, #333 0%, #474747 54%, #696969 100%);
+  background: -ms-linear-gradient(top, #333 0%, #474747 54%, #696969 100%);
+  background: linear-gradient(to bottom, #333 0%, #474747 54%, #696969 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#696969', GradientType=0 );
-  border: 1px solid #474747
+  border: 1px solid #474747;
 }
 
 section > div.flex-container.nav > a:hover {
