@@ -143,8 +143,8 @@ footer > small {
   color: #6e6e6e;
 }
 
-footer > section > div > a,
-footer > small > a {
+footer > small > a,
+footer > section > div > a {
   color: #08c;
 }
 
