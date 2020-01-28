@@ -54,6 +54,11 @@ footer {
   margin: 10px;
 }
 
+footer > small > a,
+footer > section > div > a {
+  color: #08c;
+}
+
 section > div.flex-container.nav > a {
   flex: 1;
   height: 90%;
@@ -141,11 +146,6 @@ footer > small {
   font-size: 11px;
   font-weight: 400;
   color: #6e6e6e;
-}
-
-footer > small > a,
-footer > section > div > a {
-  color: #08c;
 }
 
 .footer-copy {
