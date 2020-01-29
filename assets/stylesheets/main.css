@@ -1,3 +1,5 @@
+*, *::before, *::after { box-sizing: border-box; }
+
 /*
   ========================================
   meyerweb css reset used in the index.html
@@ -34,7 +36,6 @@ a {
 .nav {
   text-align: center;
   height: 36px;
-  background: #595959;
   max-width: 960px;
   margin-top: 5rem;
   border-radius: 7px;
@@ -59,7 +60,8 @@ footer > section > div > a {
   color: #08c;
 }
 
-section > div.flex-container.nav > a {
+section > div.flex-container.nav > a,
+input {
   flex: 1;
   height: 90%;
   padding-top: 4px;
