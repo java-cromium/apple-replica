@@ -111,6 +111,10 @@ h3:hover {
   text-decoration: underline;
 }
 
+h6 {
+  display: none;
+}
+
 .text {
   margin-top: 6rem;
   margin-left: 10rem;
