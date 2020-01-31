@@ -1,6 +1,6 @@
 # Apple Landing Page Replica
 
-> Practice project with the purpose of developing a replica of an Apple Landing page using background color and background image manipulation properties including gradient effects. The landing page was developed using only HTML and CSS3. 
+Practice project with the purpose of developing a replica of an Apple Landing page using background color and background image manipulation properties including gradient effects. The landing page was developed using only HTML and CSS3.
 
 ![screenshot](https://github.com/java-cromium/apple-replica/blob/hero-section/screen%20shot%20apple%20replica.png)
 
